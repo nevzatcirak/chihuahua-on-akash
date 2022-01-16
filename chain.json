@@ -1,0 +1,66 @@
+{
+  "status": "active",
+  "network_type": "testnet",
+  "chain_name": "Chihuahua",
+  "chain_id": "angryandy-1",
+  "bech32_prefix": "chihuahua",
+  "daemon_name": "chihuahuad",
+  "node_home": "$HOME/.chihuahua",
+  "genesis": {
+    "genesis_url": "https://raw.githubusercontent.com/ChihuahuaChain/testnets/main/angryandy/genesis.json",
+    "genesis_zipped": false
+  },
+  "codebase": {
+    "git_repo": "https://github.com/ChihuahuaChain/chihuahua/",
+    "recommended_version": "v1.0.0",
+    "compatible_versions": [
+      "v1.0.0"
+    ]
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "a7fef4b33a2d6b1529f33f08b26e3921a16444d8",
+        "address": "216.238.74.59:26656"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "5182cc3280e767aba080b0e23f9c6248f614c9ab",
+        "address": "167.86.119.129:26656"
+      },
+      {
+        "id": "a7fef4b33a2d6b1529f33f08b26e3921a16444d8",
+        "address": "216.238.74.59:26656"
+      },
+      {
+        "id": "cd5e0e007fc1d36e777a36e1bb59c0d04cf28eb1",
+        "address": "50.116.47.146:26656"
+      },
+      {
+        "id": "e6836b96b6f1d307b712343b4f1e1c3e5b7bfff3",
+        "address": "134.209.37.60:26656"
+      },
+      {
+        "id": "ec0caa08c878a503b3e52b891713b4161e3f3e1e",
+        "address": "51.68.226.61:26656"
+      },
+      {
+        "id": "f9b956972b57f7907651b5460a8869f87b097502",
+        "address": "65.21.190.250:26656"
+      },
+      {
+        "id": "f58d344d80f5d78425bd3e940d008ce62085ceed",
+        "address": "3.21.76.153:26656"
+      },
+      {
+        "id": "2d5c5afa6db383f2272a63fafd5c6f3204f5d312",
+        "address": "147.75.33.233:31457"
+      }
+    ]
+  },
+  "apis": {
+    "rpc_addrs": [],
+    "rest_addrs": []
+  }
+}
